@@ -121,3 +121,21 @@ ul {
   font-size: 60%;
 /*  color: #3c415e;*/
 }
+
+.movies > table > tbody > tr > td > img {
+  box-shadow: 2px 2px 5px grey;
+  margin: 20px;
+}
+
+
+.movies > table > tbody > tr > td > p, h3 {
+  text-align: left;
+}
+
+.movies > table > tbody > tr > td > h3 {
+  text-decoration: underline;
+}
+
+.movies > table > tbody > tr > td  {
+   vertical-align: top;
+}
