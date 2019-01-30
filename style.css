@@ -25,33 +25,11 @@ h2, h3 {
   font-weight: 700;
 }
 
-a {
-  color: #1cb3c8;
-  text-decoration: none;
+.centered {
+  text-align: center;
 }
 
-a:hover {
-  color: red;
-}
-
-.see_yourself {
-  margin-top: 50px;
-}
-
-.btn {
-  background-color: #313E89;
-  padding: 20px;
-  border-radius: 5px;
-  color: white;
-  box-shadow: 2px 2px 2px grey;
-}
-
-.btn:hover {
-  background-color: #1cb3c8;
-  color: #00204a;
-}
-
-
+/*VIEW RULES************/
 @media (min-width: 720px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -92,48 +70,94 @@ a:hover {
   padding: 40px;
   box-shadow: 5px 5px 10px grey;
 }
+/*************************/
 
-.centered {
-  text-align: center;
+
+
+/*BUTONS******************/
+a {
+  color: #1cb3c8;
+  text-decoration: none;
 }
 
+a:hover {
+  color: red;
+}
+
+.see_yourself {
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: #313E89;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.btn:hover {
+  background-color: #1cb3c8;
+  color: #00204a;
+}
 ul {
   padding: 0;
 }
-
 .inline-list > li {
   display: inline-block;
   list-style-type: none;
   margin: 0px 10px 0px 10px;
 }
-
 .reversed-color-link {
   color: #313E89;
 }
-
 .reversed-color-link:hover {
   color: #1cb3c8;
 }
+/*************************/
 
-.footer-btn > li > a{
-  font-size: 60%;
-/*  color: #3c415e;*/
-}
 
+/*MOVIES CARD*************/
 .movies > table > tbody > tr > td > img {
   box-shadow: 2px 2px 5px grey;
   margin: 20px;
 }
-
-
 .movies > table > tbody > tr > td > p, h3 {
   text-align: left;
 }
-
 .movies > table > tbody > tr > td > h3 {
   text-decoration: underline;
 }
-
 .movies > table > tbody > tr > td  {
    vertical-align: top;
 }
+/*************************/
+
+
+
+
+/*FOOTER******************/
+.footer-btn > li > a{
+  font-size: 60%;
+/*  color: #3c415e;*/
+}
+/*************************/
+
+
+
+
+/* FIXED SIDEBAR**********/
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#page-content {
+  margin-left: 300px;
+}
+/*************************/
+
+
+
