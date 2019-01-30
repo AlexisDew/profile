@@ -53,12 +53,15 @@ h2, h3 {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 380px;
+    width: 350px;
     margin: 0 auto;
   }
 
   .inline-list > li {
     font-size: 35px;
+  }
+  .movies > table > tbody > tr > td > img {
+    width: 100px;
   }
 }
 
@@ -121,6 +124,7 @@ ul {
 .movies > table > tbody > tr > td > img {
   box-shadow: 2px 2px 5px grey;
   margin: 20px;
+
 }
 .movies > table > tbody > tr > td > p, h3 {
   text-align: left;
@@ -130,6 +134,7 @@ ul {
 }
 .movies > table > tbody > tr > td  {
    vertical-align: top;
+   min-width: 60px;
 }
 /*************************/
 
@@ -149,13 +154,14 @@ ul {
 /* FIXED SIDEBAR**********/
 #sidebar {
   position: fixed;
-  width: 300px;
+  width: 50px;
   left: 0;
   top: 0;
   bottom: 0;
+  background-color: #3c415e;
 }
 #page-content {
-  margin-left: 300px;
+  margin-left: 50px;
 }
 /*************************/
 
