@@ -83,6 +83,10 @@ h2, h3 {
   .movies > table > tbody > tr > td > img {
     width: 100px;
   }
+  .movie-link {
+    color: #313E89;
+
+  }
 
   #sidebar {
     width: 45px;
@@ -115,7 +119,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: #fd1015;
 }
 
 .see_yourself {
@@ -189,6 +193,7 @@ ul {
   top: 0;
   bottom: 0;
   background-color: #3c415e;
+  box-shadow: 2px 2px 5px grey;
 }
 #page-content {
   margin-left: 50px;
@@ -199,9 +204,8 @@ ul {
 }
 
 #sidebar > ul > li > a:hover {
-  color: #DFE2E2;
+  color: white;
 }
-
 /*************************/
 
 
