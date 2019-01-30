@@ -39,6 +39,16 @@ h2, h3 {
   .inline-list > li {
     font-size: 50px;
   }
+  #sidebar {
+    width: 60px;
+  }
+  #sidebar > ul > li > a {
+    font-size: 36px;
+  }
+  #sidebar > ul > li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
@@ -48,6 +58,16 @@ h2, h3 {
   }
   .inline-list > li {
     font-size: 50px;
+  }
+  #sidebar {
+    width: 60px;
+  }
+  #sidebar > ul > li > a {
+    font-size: 36px;
+  }
+  #sidebar > ul > li {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 540px) {
@@ -62,6 +82,17 @@ h2, h3 {
   }
   .movies > table > tbody > tr > td > img {
     width: 100px;
+  }
+
+  #sidebar {
+    width: 45px;
+  }
+  #sidebar > ul > li > a {
+    font-size: 22px;
+  }
+  #sidebar > ul > li {
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
 }
 
@@ -154,7 +185,6 @@ ul {
 /* FIXED SIDEBAR**********/
 #sidebar {
   position: fixed;
-  width: 50px;
   left: 0;
   top: 0;
   bottom: 0;
@@ -163,6 +193,15 @@ ul {
 #page-content {
   margin-left: 50px;
 }
+
+#sidebar > ul > li > a {
+  color: #738598;
+}
+
+#sidebar > ul > li > a:hover {
+  color: #DFE2E2;
+}
+
 /*************************/
 
 
